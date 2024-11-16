@@ -1,1 +1,104 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>BurgerOnline 2024</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header>
+            <h1> Welcome to BurgerOnline! </h1>
+            <!-- Main title-->
+        </header>
+        
+        <section>
+            <h2> Choose your Burger </h2>
+            <p> Click on the images to order your favorite Burger! </p>
+            <!-- To order Burger-->
+
+            <div style="display: inline-block">
+                <h3> Bacon and Cheese Supreme </h3>
+                <img src="img/Bacon and Cheese Supreme.jpg" alt="Span" title="Bacon and Cheese Supreme" style="width: 200px">
+                <!-- To show the image of the Burger-->
+                <ul>
+                    <li> Gluten-free </li>
+                    <li> Lactose-free </li>
+                </ul>
+            </div>
+
+            <div style="display: inline-block">
+                <h3> Cheeseburger Delight </h3>
+                <img src="img/Cheeseburger Delight.jpg" alt="Span" title="Cheeseburger Delight" style="width: 200px">
+                <ul>
+                    <li> Includes gluten </li>
+                    <li> Lactose-free </li>
+                </ul>
+            </div>
+
+            <div style="display: inline-block">
+                <h3> Gourmet Burger </h3>
+                <img src="img/Gourmet Burger.jpg" alt="Span" title="Gourmet Burger" style="width: 200px">
+                <ul>
+                    <li> Includes gluten </li>
+                    <li> Includes lactose </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section id="contact"> 
+            <h2> Customer Information </h2>
+                <p> This is where your Burger will be delivered! </p>
+                <!-- To provide customers' information-->
+
+            <form>               
+                <p>
+                    <label for="Full name"> Full name: </label><br>
+                    <input type="text" id="Full name" name="fm" required="required" placeholder="First- and Last name">
+                </p>
+                <p>
+                    <label for="E-mail Address"> E-mail: </label><br>
+                    <input type="email" id="E-mail Address" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="Street"> Street: </label><br>
+                    <input type="text" id="Street" name="st" required="required" placeholder="Street name">
+                </p>
+                <p>
+                    <label for="House"> House: </label><br>
+                    <input type="number" id="House" name="hs" required="required" placeholder="House number">
+                </p>
+
+                <p>
+                    <label for="Payment"> Payment options: </label><br>
+                    <select id="Payment" name="pm" required="required">
+                        <option value="Visa"> Visa </option>
+                        <option value="Mastercard"> Mastercard </option>
+                        <option value="Paypal"> Paypal </option>
+                        <option value="Swish"> Swish </option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="Gender"> Gender: </label><br>
+                    <input type="radio" id="Gender" name="gd" value="Female" checked="checked"> Female<br>
+                    <input type="radio" id="Gender" name="gd" value="Male" checked="checked"> Male<br>
+                    <input type="radio" id="Gender" name="gd" value="Non-binary" checked="checked"> Non-binary<br>
+                    <input type="radio" id="Gender" name="gd" value="Undisclosed" checked="checked"> Undisclosed<br>
+                </p>
+
+                <button type="submit"> 
+                    <img src="img/Order.png" style="width: 20px">
+                    Order now!
+                </button>
+            </form>
+        </section>
+
+        <hr>
+        <!-- To separate the sections-->
+
+        <footer>
+            <p> &copy; BurgerOnline 2024 </p>
+            <!-- To show the copy right information-->
+        </footer>
+   </body>
+</html>
