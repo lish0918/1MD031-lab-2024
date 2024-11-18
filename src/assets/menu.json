@@ -1,21 +1,28 @@
+
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Bacon Cheese Supreme", 
+    "kCal": 350, 
+    "img": "../../img/Bacon and Cheese Supreme.jpg", 
     "lactose": false, 
-    "gluten": false
+    "gluten": false,
+    "vegan": true,
+    "vegetarian": false
 },
 {
-    "name": "Veggie Bliss", 
+    "name": "Cheeseburger Delight", 
     "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "img": "../../img/Cheeseburger Delight.jpg", 
     "lactose": false, 
-    "gluten": false
+    "gluten": true,
+    "vegan": false,
+    "vegetarian": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Gourmet Burger", 
+    "kCal": 300, 
+    "img": "../../img/Gourmet Burger.jpg", 
+    "lactose": true, 
+    "gluten": true,
+    "vegan": true,
+    "vegetarian": false
 }]
